@@ -35,3 +35,11 @@ do
 	;;
 	esac
 done
+
+
+
+function getTotalWorkingHours(){
+	echo "Total Working Hours : $twhours"
+}
+echo  "-----------Final Salary(Rs.) : $salary -----------"
+getTotalWorkingHours
